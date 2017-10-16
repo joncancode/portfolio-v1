@@ -149,7 +149,6 @@
     text-decoration: none;
     font-size: 20px;
     padding: 10px; */
-
     display: none;
   }
 
@@ -164,6 +163,7 @@
     font-family: 'Space Mono', monospace, sans-serif;
     font-size: 22px;
     text-decoration: none;
+    line-height: 1.9;
   }
 
   .sidebar-links:hover {
@@ -181,8 +181,8 @@
   .icon-links {
     list-style: none;
     position: relative;
-    margin: 15px 0px 20px 50px;
-    flex: 1;
+    margin: 15px 15px 20px 10px;
+    /* flex: 1; */
   }
 }
 
@@ -345,6 +345,8 @@ strong {
 @media (orientation: landscape) {
   .hobby-text {
     font-size: 18px;
+    padding-top: 5px;
+    line-height: 1.6;
   }
 }
 
