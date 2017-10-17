@@ -316,6 +316,7 @@ strong {
   .project-image {
     border: solid #6abaef 2px;
     align-self: auto;
+    max-width: 240px;
   }
 }
 
