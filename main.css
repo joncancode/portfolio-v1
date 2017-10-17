@@ -173,7 +173,8 @@
 
 @media (orientation: portrait) {
   .icon-link-group {
-    display: flex;
+    /* display: flex; */
+    text-align: center;
   }
 }
 
@@ -190,8 +191,7 @@
   .icon-links {
     /* list-style: none; */
     /* position: relative;  */
-    margin: 10px 65px 15px 20px;
-    width: 10%;
+    margin-bottom: 15px;
   }
 }
 
@@ -409,7 +409,7 @@ strong {
 @media (orientation: portrait) {
   .contact {
     /* background-color: #ecf0f1; */
-    text-align: center;
+    /* text-align: center; */
     /* border: 2px solid #6abaef; */
     height: 50vh;
   }
@@ -425,6 +425,7 @@ strong {
   padding-bottom: 15px;
   color: #13284a;
   line-height: 1.3;
+  text-align: center; 
 }
 
 .contact-email {
@@ -434,7 +435,8 @@ strong {
   color: #13284a;
   text-shadow: 1px 1px #fcc29a;
   font-size: 22px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  text-align: center; 
 }
 
 .contact > h2 {
