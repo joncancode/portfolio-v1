@@ -24,18 +24,6 @@
 }
 
 @media (orientation: landscape) {
-  section {
-    margin-bottom: 100px;
-  }
-}
-
-@media (orientation: portrait) {
-  section {
-    margin-bottom: 5px;
-  }
-}
-
-@media (orientation: landscape) {
   .nav-image {
     margin-top: 10px;
   }
@@ -354,6 +342,59 @@ strong {
     padding-top: 5px;
     line-height: 1.6;
   }
+  
+  @media (orientation: landscape) {
+  .tooltip {
+    position: relative;
+    display: inline-block;
+}
+}
+
+@media (orientation: landscape) {
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #13284a;
+  color: #fff;
+  border: 2px solid #fcc29a;
+  text-align: center;
+  padding: 4px 0;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 5px;
+  font-family: 'Space Mono', monospace, sans-serif;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  top: 120%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 1s;
+}
+}
+
+@media (orientation: landscape) {
+.tooltip .tooltiptext::after {
+  /* content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #13284a transparent transparent transparent; */
+}
+}
+
+@media (orientation: landscape) {
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
 }
 
 @media (orientation: portrait) {
@@ -471,4 +512,16 @@ strong {
   color: #13284a;
   text-decoration: none;
   line-height: 1.4;
+}
+
+@media (orientation: landscape) {
+  section {
+    margin-bottom: 10px;
+  }
+}
+
+@media (orientation: portrait) {
+  section {
+    margin-bottom: 5px;
+  }
 }
