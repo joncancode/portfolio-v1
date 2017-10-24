@@ -336,21 +336,21 @@ strong {
   }
 }
 
-@media (orientation: landscape) {
+
   .hobby-text {
     font-size: 22px;
     padding-top: 5px;
     line-height: 1.6;
   }
   
-  @media (orientation: landscape) {
+
   .tooltip {
     position: relative;
     display: inline-block;
 }
-}
 
-@media (orientation: landscape) {
+
+
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 200px;
@@ -375,7 +375,7 @@ strong {
   opacity: 0;
   transition: opacity 1s;
 }
-}
+
 
 @media (orientation: landscape) {
 .tooltip .tooltiptext::after {
@@ -390,12 +390,12 @@ strong {
 }
 }
 
-@media (orientation: landscape) {
+
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
 }
-}
+
 
 @media (orientation: portrait) {
   .work {
