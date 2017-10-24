@@ -274,7 +274,7 @@ strong {
     font-size: 16px;
     padding: 2px;
     text-align: center;
-    line-height: 1.3; 
+    line-height: 1.3;
   }
 }
 
@@ -333,7 +333,6 @@ strong {
 @media (orientation: portrait) {
   .hobby-text {
     font-size: 18px;
-    visibility: hidden;
   }
 }
 
@@ -343,44 +342,45 @@ strong {
     padding-top: 5px;
     line-height: 1.6;
   }
-  
-  @media (orientation: landscape) {
+}
+
+@media (orientation: landscape) {
   .tooltip {
     position: relative;
     display: inline-block;
-}
-}
-
-@media (orientation: landscape) {
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 200px;
-  background-color: #13284a;
-  color: #fff;
-  border: 2px solid #fcc29a;
-  text-align: center;
-  padding: 4px 0;
-  border-radius: 6px;
-  font-size: 14px;
-  padding: 5px;
-  font-family: 'Space Mono', monospace, sans-serif;
-
-  /* Position the tooltip text */
-  position: absolute;
-  z-index: 1;
-  top: 120%;
-  left: 50%;
-  margin-left: -60px;
-
-  /* Fade in tooltip */
-  opacity: 0;
-  transition: opacity 1s;
-}
+  }
 }
 
 @media (orientation: landscape) {
-.tooltip .tooltiptext::after {
-  /* content: "";
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #13284a;
+    color: #fff;
+    border: 2px solid #fcc29a;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 5px;
+    font-family: 'Space Mono', monospace, sans-serif;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    top: 120%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+  }
+}
+
+@media (orientation: landscape) {
+  .tooltip .tooltiptext::after {
+    /* content: "";
   position: absolute;
   bottom: 100%;
   left: 50%;
@@ -388,14 +388,20 @@ strong {
   border-width: 5px;
   border-style: solid;
   border-color: #13284a transparent transparent transparent; */
-}
+  }
 }
 
 @media (orientation: landscape) {
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
 }
+
+@media (orientation: portrait) {
+  .tooltip .tooltiptext {
+    display: none;
+  }
 }
 
 @media (orientation: portrait) {
@@ -472,7 +478,7 @@ strong {
   padding-bottom: 15px;
   color: #13284a;
   line-height: 1.3;
-  text-align: center; 
+  text-align: center;
 }
 
 .contact-email {
@@ -483,7 +489,7 @@ strong {
   text-shadow: 1px 1px #fcc29a;
   font-size: 22px;
   padding-bottom: 20px;
-  text-align: center; 
+  text-align: center;
 }
 
 .contact > h2 {
