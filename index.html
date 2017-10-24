@@ -38,7 +38,10 @@
 
         <section class="about" id="about">
             <p class="about-text">
-                <img class="logo-image" id="logo-image" src="images/logo/jh-name.png" alt="logo" height="165" width="205">
+                <span class="tog">
+                    <img class="logo-image" src="images/logo/jh-name.png" alt="logo-name" height="165" width="205">
+                    <img class="logo-image" src="images/logo/jh-real.png" style="display:none;" alt="logo-real" height="165" width="165">
+                </span>
                 <br>
                 <br> Hi, I'm
                 <strong>Jonathan Haines</strong>, a developer from
@@ -354,9 +357,7 @@
             });
         });
     </script>
-
     <script>
-
         var imageGroup = [
             // "images/bitmoji/brain.png",
             "images/bitmoji/cat.png",
@@ -368,13 +369,15 @@
             "images/bitmoji/saturn.png",
             "images/bitmoji/shark.png",
         ];
-
         var size = imageGroup.length
         var randomNum = Math.floor(size * Math.random())
         document.getElementById('nav-image').src = imageGroup[randomNum];
-
     </script>
-
+    <script>
+        $(".tog").click(function () {
+            $('img', this).toggle();
+        });
+    </script>
 </body>
 
 </html>

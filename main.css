@@ -234,12 +234,17 @@
 
 @media (orientation: landscape) {
   .logo-image {
-    /* padding: 2px;
-    align-content: center;
-    margin: 0px 0px 80px 200px; */
-    padding: 50px 0px 0px 0px;
+    margin-top: 50px;
   }
 }
+
+@media (orientation: landscape) {
+  .logo-image:hover {
+    margin-top: 50px;
+    filter: drop-shadow(3px 3px 3px #6abaef);
+  }
+}
+
 
 .my-name {
   font-weight: bold;
