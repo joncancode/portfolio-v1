@@ -140,9 +140,6 @@
     display: none;
   }
 
-  .sidebar-links:hover {
-    color: #6abaef;
-  }
 }
 
 @media (orientation: landscape) {
@@ -155,7 +152,7 @@
   }
 
   .sidebar-links:hover {
-    color: #6abaef;
+    filter: drop-shadow(2px 2px 2px #6abaef);
   }
 }
 
@@ -301,7 +298,7 @@ strong {
 
 .about-text-links:hover {
   font-weight: bold;
-  background-color: #6abaef;
+  filter: drop-shadow(2px 2px 2px #6abaef);
   color: #13284a;
   text-decoration: none;
 }
@@ -325,6 +322,7 @@ strong {
 
 .project-image:hover {
   border: solid #fcc29a 2px;
+  filter: drop-shadow(7px 7px 2px #6abaef);
 }
 
 .project {
@@ -526,7 +524,7 @@ strong {
 }
 
 .project-link > a:hover {
-  background-color: #6abaef;
+  filter: drop-shadow(2px 2px 2px #6abaef);
   color: #13284a;
   text-decoration: none;
   line-height: 1.4;
