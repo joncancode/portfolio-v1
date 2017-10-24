@@ -403,6 +403,12 @@ strong {
   }
 }
 
+@media (orientation: landscape) {
+  .tooltip:hover {
+    filter: drop-shadow(2px 2px 2px #6abaef);
+  }
+}
+
 @media (orientation: portrait) {
   .tooltip .tooltiptext {
     display: none;
