@@ -16,18 +16,12 @@
         <img src="images/bitmoji/load.gif" class="nav-image" id="nav-image" alt="cartoon" height="125" width="125">
         <!-- <h1 class="my-name">Jonathan Haines</h1> -->
         <nav class="main-nav">
-            <ul>
-                <class="main-nav-link">
-                    <a class="sidebar-links" href="#about">About</a>
-                    </li>
-                    <br>
-                    <class="main-nav-link">
-                        <a class="sidebar-links" href="#work">Work</a>
-                        </li>
-                        <br>
-                        <class="main-nav-link">
-                            <a class="sidebar-links" href="#contact">Contact</a>
-                            </li>
+            <ul class="main-nav-link">
+                <a class="sidebar-links" href="#about">About</a>
+                <br>
+                <a class="sidebar-links" href="#work">Work</a>
+                <br>
+                <a class="sidebar-links" href="#contact">Contact</a>
             </ul>
             <!-- <div class="icon-link-group">
                 <class="contact-link contact-link-email"><a class="icon-links" target="_new" href="mailto:jc.haines@gmail.com"><img src="icons/links/email-dark.png" height="25" width="25"></a>
@@ -295,91 +289,91 @@
                     </div>
         </section>
         </div>
-            <section class="contact" id="contact">
-                <h2>&lt;Let's connect!/&gt;</h2>
-                <div class="icon-link-group">
-                    <!-- <class="contact-link contact-link-email"> -->
-                    <!-- <a class="icon-links" target="_new" href="mailto:jc.haines@gmail.com">
+        <section class="contact" id="contact">
+            <h2>&lt;Let's connect!/&gt;</h2>
+            <div class="icon-link-group">
+                <!-- <class="contact-link contact-link-email"> -->
+                <!-- <a class="icon-links" target="_new" href="mailto:jc.haines@gmail.com">
                         <img src="icons/links/email-dark.png" height="25" width="25">
                     </a> -->
-                    <class="contact-link contact-link-linkedin">
-                        <a class="icon-links" target="_new" href="http://bit.ly/2vFm0E1">
-                            <img src="icons/links/linkedin-dark.png" height="25" width="25">
+                <class="contact-link contact-link-linkedin">
+                    <a class="icon-links" target="_new" href="http://bit.ly/2vFm0E1">
+                        <img src="icons/links/linkedin-dark.png" height="25" width="25">
+                    </a>
+                    <class="contact-link contact-link-github">
+                        <a class="icon-links" target="_new" href="http://bit.ly/2wYXFgX">
+                            <img src="icons/links/github-dark.png" height="25" width="25">
                         </a>
-                        <class="contact-link contact-link-github">
-                            <a class="icon-links" target="_new" href="http://bit.ly/2wYXFgX">
-                                <img src="icons/links/github-dark.png" height="25" width="25">
+                        <class="contact-link contact-link-facebook">
+                            <a class="icon-links" target="_new" href="http://bit.ly/2vnnXK2">
+                                <img src="icons/links/facebook-dark.png" height="25" width="25">
                             </a>
-                            <class="contact-link contact-link-facebook">
-                                <a class="icon-links" target="_new" href="http://bit.ly/2vnnXK2">
-                                    <img src="icons/links/facebook-dark.png" height="25" width="25">
+                            <class="contact-link contact-link-medium">
+                                <a class="icon-links" target="_new" href="http://bit.ly/2vzkggA">
+                                    <img src="icons/links/medium-dark.png" height="25" width="25">
                                 </a>
-                                <class="contact-link contact-link-medium">
-                                    <a class="icon-links" target="_new" href="http://bit.ly/2vzkggA">
-                                        <img src="icons/links/medium-dark.png" height="25" width="25">
+                                <class="contact-link contact-link-instagram">
+                                    <a class="icon-links" target="_new" href="http://bit.ly/2wjUuxP">
+                                        <img src="icons/links/instagram-dark.png" height="25" width="25">
                                     </a>
-                                    <class="contact-link contact-link-instagram">
-                                        <a class="icon-links" target="_new" href="http://bit.ly/2wjUuxP">
-                                            <img src="icons/links/instagram-dark.png" height="25" width="25">
-                                        </a>
-                </div>
-                <p class="contact-availability">I'm available for freelance work, as well as open to hearing about full-time opportunities.</p>
-                <p class="contact-email">jc.haines19@gmail.com</p>
             </div>
-        </div>
+            <p class="contact-availability">I'm available for freelance work, as well as open to hearing about full-time opportunities.</p>
+            <p class="contact-email">jc.haines19@gmail.com</p>
     </div>
-            </section>
+    </div>
+    </div>
+    </section>
 
-            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-                crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
 
-                </script>
-            <script>
-                console.log("Welcome to the console. Please enjoy my page")
-            </script>
-            <script>
-                //scroll to section
-                $(document).ready(function () {
-                    $(".sidebar-links").on('click', function (event) {
-                        event.preventDefault();
-                        var hash = this.hash;
-                        $('html, body').animate({
-                            scrollTop: $(hash).offset().top
-                        }, 800, function () {
-                            window.location.hash = hash;
-                        });
-                    });
-                    $(".about-text-links-contact").on('click', function (event) {
-                        event.preventDefault();
-                        var hash = this.hash;
-                        $('html, body').animate({
-                            scrollTop: $(hash).offset().top
-                        }, 800, function () {
-                            window.location.hash = hash;
-                        });
-                    });
+        </script>
+    <script>
+        console.log("Welcome to the console. Please enjoy my page")
+    </script>
+    <script>
+        //scroll to section
+        $(document).ready(function () {
+            $(".sidebar-links").on('click', function (event) {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+                    window.location.hash = hash;
                 });
-            </script>
+            });
+            $(".about-text-links-contact").on('click', function (event) {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+                    window.location.hash = hash;
+                });
+            });
+        });
+    </script>
 
-            <script>
+    <script>
 
-                var imageGroup = [
-                   // "images/bitmoji/brain.png",
-                    "images/bitmoji/cat.png",
-                    "images/bitmoji/dog.png",
-                    "images/bitmoji/happy.png",
-                    "images/bitmoji/hi.png",
-                    "images/bitmoji/pizza.png",
-                   // "images/bitmoji/sandwich.png",
-                    "images/bitmoji/saturn.png",
-                    "images/bitmoji/shark.png",
-                ];
+        var imageGroup = [
+            // "images/bitmoji/brain.png",
+            "images/bitmoji/cat.png",
+            "images/bitmoji/dog.png",
+            "images/bitmoji/happy.png",
+            "images/bitmoji/hi.png",
+            "images/bitmoji/pizza.png",
+            // "images/bitmoji/sandwich.png",
+            "images/bitmoji/saturn.png",
+            "images/bitmoji/shark.png",
+        ];
 
-                var size = imageGroup.length
-                var randomNum = Math.floor(size * Math.random())
-                document.getElementById('nav-image').src = imageGroup[randomNum];
+        var size = imageGroup.length
+        var randomNum = Math.floor(size * Math.random())
+        document.getElementById('nav-image').src = imageGroup[randomNum];
 
-            </script>
+    </script>
 
 </body>
 
