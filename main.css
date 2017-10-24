@@ -326,8 +326,8 @@ strong {
   margin-top: 25px;
 }
 
-.project-title {
-  margin-top: 65px;
+.project-link-github {
+  margin-bottom: 65px;
 }
 
 @media (orientation: portrait) {
