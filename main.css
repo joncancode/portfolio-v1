@@ -211,7 +211,7 @@
   .about {
     flex-direction: column;
     height: 100vh;
-    padding-top: 40px;
+    padding-top: 5px;
   }
 }
 
